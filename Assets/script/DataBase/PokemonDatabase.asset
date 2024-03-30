@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3627b52ec85a2494994cc540731aeb7e, type: 3}
+  m_Name: PokemonDatabase
+  m_EditorClassIdentifier: 
+  datas:
+  - icon: {fileID: 21300000, guid: 233d6470ce02d1b4fa97930a84e94c67, type: 3}
+    size: 0.7
+    caption: "Au d\xE9but de sa vie, il se nourrit des nutriments accumul\xE9s dans
+      la graine sur son dos. Cela lui permet de grandir."
+    Name: 'Bulbizarre '
+    StartingHealth: 45
+    Attack: 49
+    Defense: 49
+    weight: 6.9
+    stats: 145
+    currentHealth: 0
+    pokemonType: 4
+    WeaknessesList: 0100000005000000
+    ResistancesList: 0200000004000000
+  - icon: {fileID: 21300000, guid: f4141ca3e4dd65b42a3e142dbb7d4ecc, type: 3}
+    size: 1
+    caption: "Plus il s\u2019expose au soleil, plus il emmagasine d\u2019\xE9nergie,
+      ce qui permet au bourgeon sur son dos de se d\xE9velopper."
+    Name: Herbizarre
+    StartingHealth: 60
+    Attack: 62
+    Defense: 63
+    weight: 13
+    stats: 165
+    currentHealth: 0
+    pokemonType: 4
+    WeaknessesList: 0100000005000000
+    ResistancesList: 0200000004000000
+  - icon: {fileID: 21300000, guid: 93e29eec47bfec044aab8a4709e2f546, type: 3}
+    size: 2
+    caption: "Ce Pok\xE9mon est capable de transformer la lumi\xE8re du soleil en
+      \xE9nergie. Il est donc encore plus fort en \xE9t\xE9."
+    Name: 'Florizarre '
+    StartingHealth: 80
+    Attack: 82
+    Defense: 83
+    weight: 100
+    stats: 178
+    currentHealth: 0
+    pokemonType: 4
+    WeaknessesList: 0100000005000000
+    ResistancesList: 0200000004000000
+  - icon: {fileID: 21300000, guid: 75141f096a671db49bf63a817e777484, type: 3}
+    size: 0.6
+    caption: "La flamme au bout de sa queue repr\xE9sente sa vitalit\xE9. Quand Salam\xE8che
+      n\u2019est pas au meilleur de sa forme, elle faiblit."
+    Name: "Salam\xE8che "
+    StartingHealth: 39
+    Attack: 52
+    Defense: 43
+    weight: 8.5
+    stats: 139
+    currentHealth: 0
+    pokemonType: 1
+    WeaknessesList: 02000000
+    ResistancesList: 0400000001000000
+  - icon: {fileID: 21300000, guid: d2826ae2cc21e3840b8753df6a18f3b9, type: 3}
+    size: 1.7
+    caption: "En agitant sa queue enflamm\xE9e, il peut \xE9lever la temp\xE9rature
+      ambiante de mani\xE8re exponentielle et ainsi tourmenter ses adversaires."
+    Name: Reptincel
+    StartingHealth: 58
+    Attack: 64
+    Defense: 58
+    weight: 19
+    stats: 152
+    currentHealth: 0
+    pokemonType: 1
+    WeaknessesList: 02000000
+    ResistancesList: 0400000001000000
+  - icon: {fileID: 21300000, guid: e362a8ff90b04d2459c439cc12f45132, type: 3}
+    size: 1.7
+    caption: "Quand Dracaufeu s\u2019\xE9nerve r\xE9ellement, la flamme au bout de
+      sa queue devient bleue."
+    Name: Dracaufeu
+    StartingHealth: 78
+    Attack: 84
+    Defense: 78
+    weight: 90.5
+    stats: 162
+    currentHealth: 0
+    pokemonType: 1
+    WeaknessesList: 02000000
+    ResistancesList: 0400000001000000
+  - icon: {fileID: 21300000, guid: d8260bed475efdb42bccd77ac18274a2, type: 3}
+    size: 0.5
+    caption: "Sa longue queue touffue est un symbole de long\xE9vit\xE9. Les personnes
+      \xE2g\xE9es appr\xE9cient donc particuli\xE8rement ce Pok\xE9mon."
+    Name: Carapuce
+    StartingHealth: 44
+    Attack: 48
+    Defense: 65
+    weight: 90
+    stats: 130
+    currentHealth: 0
+    pokemonType: 2
+    WeaknessesList: 0400000003000000
+    ResistancesList: 0100000005000000
+  - icon: {fileID: 21300000, guid: da90d120b0a59a5489b4b8287493d492, type: 3}
+    size: 1
+    caption: "Ce Pok\xE9mon crache une \xE9cume redoutable. Apr\xE8s sa naissance,
+      son dos gonfle et durcit pour former une carapace."
+    Name: Carabaffe
+    StartingHealth: 59
+    Attack: 63
+    Defense: 80
+    weight: 22.5
+    stats: 156
+    currentHealth: 0
+    pokemonType: 2
+    WeaknessesList: 0400000003000000
+    ResistancesList: 0100000005000000
+  - icon: {fileID: 21300000, guid: ce5fe1fba11cef042b01ccb306200186, type: 3}
+    size: 1.6
+    caption: "Il augmente d\xE9lib\xE9r\xE9ment sa masse corporelle pour contrer
+      le recul de ses puissants jets d\u2019eau."
+    Name: Tortank
+    StartingHealth: 79
+    Attack: 83
+    Defense: 100
+    weight: 85.5
+    stats: 168
+    currentHealth: 0
+    pokemonType: 2
+    WeaknessesList: 0400000003000000
+    ResistancesList: 0100000005000000
+  - icon: {fileID: 21300000, guid: 7db687a6df3a87648a80843c73a3381d, type: 3}
+    size: 0.3
+    caption: "Il peut ronger n\u2019importe quoi avec ses deux dents. Quand on en
+      voit un, il y en a certainement 40 dans le coin."
+    Name: Rattata
+    StartingHealth: 30
+    Attack: 56
+    Defense: 35
+    weight: 3.5
+    stats: 128
+    currentHealth: 0
+    pokemonType: 0
+    WeaknessesList: 06000000
+    ResistancesList: 0d000000
